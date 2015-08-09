@@ -30,7 +30,7 @@ plot4 = function()  {
   lines(t, sm2, col = "Red", typ = "l")
   lines(t, sm3, col = "Blue", typ = "l")
   legend("topright", col = c("Black", "Red", "Blue"),legend = c("Sub_metering_1",
-  "Sub_metering_2", "Sub_metering_3"), lty = 1, cex = 0.5, bty = "n")
+  "Sub_metering_2", "Sub_metering_3"), lty = 1, cex = 0.75, bty = "n", y.intersp = 0.3)
   
   ## Fourth plot
   plot(t, Global_reactive_power, type = "l", xlab = "datetime", ylab = "Global_reactive_power",
